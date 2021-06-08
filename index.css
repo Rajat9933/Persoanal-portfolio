@@ -1,0 +1,164 @@
+
+body {
+  background-color: #353b3d;
+  color: #d2eef7;
+  font-size: 30px;
+  font-family: Lobster;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.welcome-section {
+    font-size: 3rem;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+    text-align: center;
+}
+.welcome-title {
+  color: #ff3d9b;
+}
+.welcome-tag {
+  padding-top: 15rem;
+}
+.project-tile {
+  padding-bottom: 56px;
+}
+.project-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: #4e77a6;
+}
+#contact {
+  padding-top: 90px;
+
+}
+img {
+  display: block;
+  width: 400px;
+  height: 350px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #802b53;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+
+}
+nav ul li {
+  display: inline-block;
+  margin-top: 15px;
+}
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: 400;
+  margin: 0 10px;
+  color: #fff;
+}
+nav ul li a:hover {
+  background-color: #4a323f;
+  color: #fff;
+}
+.project-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+  grid-gap: 2.3rem;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.project-name {
+  text-decoration: none;
+  color: #dce4f7;
+  font-size: 2rem;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+}
+.contact-text {
+  margin: 0 10rem;
+  padding: 0 10rem;
+}
+.contact-name {
+  padding: 2rem 2rem;
+}
+.contact-tag {
+  font-size: 4rem;
+}
+#contact-link {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0 0 0;
+
+}
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+footer {
+  background-color: #5c2e45;
+  height: 80px;
+}
+footer ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding-top: .5rem;
+
+}
+footer ul li {
+  display: inline-block;
+  margin: 1rem;
+}
+footer ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.more-info {
+  font-size: 1.5rem;
+  color: #dce4f7;
+  text-transform: uppercase;
+}
+footer ul li :hover {
+  background-color: #2a65fa;
+  color: #fff;
+}
+@media (max-width: 750px) {
+  body {
+    background-color: #2e4735;
+  }
+}
+.hr {
+  background-color: #d11d1d;
+  font-weight: bold;
+}
