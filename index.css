@@ -31,24 +31,35 @@ a {
 .welcome-tag {
   padding-top: 15rem;
 }
-.project-tile {
-  padding-bottom: 56px;
+.project-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
 }
 .project-section {
   text-align: center;
   padding: 10rem 2rem;
   background: #4e77a6;
 }
+.project-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 4rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  
+}
+.project-image {
+height: calc(100% - 6.8rem);
+width: 100%;
+object-fit: cover;
+}
 #contact {
   padding-top: 90px;
 
 }
-img {
-  display: block;
-  width: 400px;
-  height: 350px;
-}
-
 nav {
   display: flex;
   justify-content: flex-end;
@@ -75,18 +86,10 @@ nav ul li a{
   color: #fff;
 }
 nav ul li a:hover {
-  background-color: #4a323f;
+  background-color: #612f4a;
   color: #fff;
 }
-.project-grid {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(320px, auto));
-  grid-gap: 2.3rem;
-  width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
-}
+
 .project-name {
   text-decoration: none;
   color: #dce4f7;
